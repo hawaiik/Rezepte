@@ -10,15 +10,23 @@
     body{font-family:system-ui,-apple-system,sans-serif;max-width:860px;margin:48px auto;padding:0 20px;line-height:1.55}
     h1{font-size:2.2rem;margin-bottom:.5rem}
     .sub{opacity:.7;margin-bottom:2rem}
-    .card{border:1px solid #9995;border-radius:16px;padding:20px;margin:16px 0}
+    .card{border:1px solid #9995;border-radius:16px;padding:18px;margin:16px 0}
     .card a{font-size:1.25rem;font-weight:700;text-decoration:none}
+    .card img{width:120px;height:90px;object-fit:cover;border-radius:10px;float:right;margin-left:16px}
     .meta{opacity:.7;margin-top:.35rem}
+    .card:after{content:"";display:block;clear:both}
   </style>
 </head>
 <body>
   <main>
     <h1>Rezepte</h1>
     <p class="sub">Eine kleine Sammlung meiner Rezepte.</p>
+
+    <article class="card">
+      <img src="./images/zwiebelkuchen.jpg" alt="">
+      <a href="./zwiebelkuchen/">Vegetarischer Zwiebelkuchen mit Dinkel-Mürbteig</a>
+      <p class="meta">Vegetarisch · 28-cm-Springform · Dinkel 1050</p>
+    </article>
 
     <article class="card">
       <a href="./tomaten-mozzarella-pasta/">Tomaten-Mozzarella-Pasta</a>
